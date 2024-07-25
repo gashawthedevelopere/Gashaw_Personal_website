@@ -1,0 +1,51 @@
+
+.maincontainer{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    /* background-color: green; */
+}
+
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 2s ease;
+    /* background-color: yellow; */
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.thefont{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color:#333;
+    background-color: #ffc728;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+    
+}
+
+.theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color:#333;
+    background-color: aqua;
+    transform: rotateY(180deg);
+
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 20px;
+}

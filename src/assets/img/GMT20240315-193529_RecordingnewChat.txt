@@ -1,0 +1,5 @@
+00:30:34	Samiya Yusuf:	SELECT q.*, u.username       FROM questions q       INNER JOIN users u ON q.userid = u.userid       ORDER BY q.id DESC
+00:30:55	Abdulnur Hussen:	"SELECT questions.*, users.username FROM questions JOIN users ON questions.userid = users.userid ORDER BY id DESC"
+01:53:59	Safu Mulatu:	how about that
+01:54:02	Safu Mulatu:	const questionId = req.params.questionid;  const userid = req.user.userid;  const answerText = req.body.answer;
+02:35:10	Safu Mulatu:	https://forum-frontend-7wi.pages.dev/login

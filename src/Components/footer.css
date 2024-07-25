@@ -1,0 +1,81 @@
+
+
+/************ Footer Css ************/
+   .footer {
+  background-color: rgb(41, 41, 41);
+  width: 100%;
+}
+
+.footer img {
+  width: 26%;
+}
+.footer-icons{
+  padding-top: 20px;
+}
+
+
+
+.social-icons a {
+  margin-right: 20px;
+  color: #fff; 
+  transition: color 0.3s ease;
+  /* padding-left: 30px; */
+}
+
+.social-icons a:hover {
+  color: #007bff; 
+}
+
+
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #B8B8B8;
+  letter-spacing: 0.5px;
+  margin: 20px auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* padding-right: 50px; */
+  
+} 
+
+.footer__btn button{
+    color: #007bff;
+} 
+
+
+
+@media (min-width: 768px) {
+  .footer {
+    height: 100px;
+    padding: 30px;
+  }
+  .footer p {
+    padding-right: 100px;
+    /* font-size: 18px; */
+  }
+  .footer .hen {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .footer .hen .social-icons{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  .footer-icons{
+    padding-top: 0px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+

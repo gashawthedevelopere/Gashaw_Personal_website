@@ -1,0 +1,261 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Barcode+39&family=Outfit:wght@100..900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Barcode+39&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Libre+Barcode+39&family=Nanum+Myeongjo&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap'); */
+
+.skill{
+  /* background-color: #fff; */
+  background-color: rgb(243, 234, 234);
+  /* color: rgb(117, 117, 117); yerasu correct */
+  /* color: black; */
+  color: rgb(76, 70, 112);
+  padding: 10% 2%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.skill__both{
+    font-family: "Libre Barcode 39", system-ui;
+     font-weight: 400;
+    cursor: pointer;
+}
+.skill_bar{
+  
+ font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    cursor: pointer;
+}
+
+ .skill__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: -28px;
+  margin-bottom: 30px;
+} 
+
+.skill h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #e33f00;
+  /* color: rgb(163, 46, 0); */
+}
+
+ul li{
+list-style: none;
+padding-top: 10px;
+font-weight: 400;
+font-size: 17px;
+}
+
+
+.maincontainer{
+    margin: 10px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    height: 550px;
+    width: 550px;
+    position: relative;
+} 
+
+
+ .thecard{
+     position: absolute; 
+     width: 100%;
+    height: 100%; 
+    transform-style: preserve-3d;
+    transition: all 3s ease;
+    /* background-color:#A9A9A9 */
+} 
+ 
+.thecard:hover{
+    transform: rotateY(180deg);
+    
+} 
+
+
+.thefont{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    color:#333;
+    text-align: center;
+    border-radius: 20px;
+    background-color:#A9A9A9;
+    /* padding: 20px; */
+} 
+
+
+
+.theback{
+  
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    /* padding: 20px; */
+} 
+
+.maincontainer img {
+  object-fit: contain;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+
+.skill__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* .resume-center{
+
+align-items: center;
+background-color: aliceblue;
+padding: 80px 60px ;
+margin: 30px 40px;
+}
+.resume h1 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+.resume p{
+  text-align: center;
+  font-size: 25px;
+}
+ .resume-btn{
+  text-align: center;
+  background-color: blue;
+  padding: 20px;
+  color: white;
+  margin-left: 420px;
+ 
+  border: 1px solid ;
+  
+}
+.resume-btn:hover{
+  border-color: blue;
+} */
+
+
+/* Styles for larger screens */
+.resume {
+  text-align: center;
+  background-color: aliceblue;
+  margin-top: 20px;
+}
+
+.resume-center {
+  display: inline-block;
+  padding: 20px;
+ 
+}
+
+.resume h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+}
+
+.resume p {
+  font-size: 1.2em;
+}
+
+.resume-btn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: blue;
+  border: 1px solid ;
+}
+.resume-btn:hover{
+  border-color: blue;
+  background-color: #fff;
+} 
+
+/* Media queries for smaller screens */
+@media only screen and (max-width: 768px) {
+  .resume h1 {
+    font-size: 2em;
+  }
+
+  .resume p {
+    font-size: 1em;
+  }
+
+  .resume-btn {
+    padding: 8px 16px;
+    font-size: 1em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .resume h1 {
+    font-size: 1.5em;
+  }
+
+  .resume p {
+    font-size: 0.9em;
+  }
+
+  .resume-btn {
+    padding: 6px 12px;
+    font-size: 0.9em;
+  }
+}
+
+
+@media (max-width: 620px) {
+  .maincontainer {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 500px) {
+  .maincontainer {
+    height: 330px;
+    width: 330px;
+  }
+}
+
+@media (max-width: 370px) {
+  .maincontainer {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 170px) {
+  .maincontainer {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .skill__list ul {
+    flex: 1 0 33.3%; /* Three columns on medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .skill__list ul {
+    flex: 1 0 25%; /* Four columns on larger screens */
+  }
+}
+
+
+
+
