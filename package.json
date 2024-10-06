@@ -1,7 +1,7 @@
 {
   "name": "portfolio-gashaw",
   "version": "0.1.0",
-  "private": true,
+  "public": true,
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@testing-library/jest-dom": "^5.17.0",
